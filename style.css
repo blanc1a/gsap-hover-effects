@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dot {
+  height: 20px;
+  min-width: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.text {
+  color: #777;
+  font-family: Raleway;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 4px;
+  font-size: 40px;
+  white-space: nowrap;
+}
